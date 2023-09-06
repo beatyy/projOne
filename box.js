@@ -12,22 +12,18 @@ let contentBox = document.querySelector(".content")
 
 borderRange.addEventListener("change", function(){
     borderBox.style.padding = borderRange.value + "px"
-    //console.log(borderRange.value)
 })
 
 paddingRange.addEventListener("change", function(){
     paddingBox.style.padding = paddingRange.value + "px"
-    //console.log(paddingRange.value)
 })
 
 contentRange.addEventListener("change", function(){
     contentBox.style.padding = contentRange.value + "px"
-    //console.log(contentRange.value)
 })
 
 borderColor.addEventListener("change", function() {
     borderBox.style.backgroundColor = borderColor.value
-    console.log(borderColor.value)
 })
 
 paddingColor.addEventListener("change", function() {
